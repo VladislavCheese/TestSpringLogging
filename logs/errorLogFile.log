@@ -1,0 +1,98 @@
+2021-04-08 12:43:20.014  INFO 73767 --- [restartedMain] c.e.t.TestSpringLoggingApplication       : Starting TestSpringLoggingApplication using Java 16 on vladislav-GL65-9SCK with PID 73767 (/home/vladislav/IdeaProjects/TestSpringLogging/target/classes started by vladislav in /home/vladislav/IdeaProjects/TestSpringLogging)
+2021-04-08 12:43:20.015 DEBUG 73767 --- [restartedMain] c.e.t.TestSpringLoggingApplication       : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-04-08 12:43:20.016  INFO 73767 --- [restartedMain] c.e.t.TestSpringLoggingApplication       : No active profile set, falling back to default profiles: default
+2021-04-08 12:43:20.046  INFO 73767 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-08 12:43:20.046  INFO 73767 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-08 12:43:20.489  INFO 73767 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-08 12:43:20.494  INFO 73767 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-08 12:43:20.494  INFO 73767 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-08 12:43:20.522  INFO 73767 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-08 12:43:20.522  INFO 73767 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 475 ms
+2021-04-08 12:43:20.620  INFO 73767 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-08 12:43:20.686  INFO 73767 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-08 12:43:20.701  INFO 73767 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-08 12:43:20.707  INFO 73767 --- [restartedMain] c.e.t.TestSpringLoggingApplication       : Started TestSpringLoggingApplication in 0.881 seconds (JVM running for 1.24)
+2021-04-08 12:43:25.889  INFO 73767 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-08 12:43:25.889  INFO 73767 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-08 12:43:25.890  INFO 73767 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-08 12:43:25.898 TRACE 73767 --- [http-nio-8080-exec-1] c.e.t.controller.LoggingController       : A TRACE Message
+2021-04-08 12:43:25.899 DEBUG 73767 --- [http-nio-8080-exec-1] c.e.t.controller.LoggingController       : A DEBUG Message
+2021-04-08 12:43:25.899  INFO 73767 --- [http-nio-8080-exec-1] c.e.t.controller.LoggingController       : An INFO Message
+2021-04-08 12:43:25.899  WARN 73767 --- [http-nio-8080-exec-1] c.e.t.controller.LoggingController       : A WARN Message
+2021-04-08 12:43:25.899 ERROR 73767 --- [http-nio-8080-exec-1] c.e.t.controller.LoggingController       : An ERROR Message
+2021-04-08 12:43:26.007 TRACE 73767 --- [http-nio-8080-exec-2] c.e.t.controller.LoggingController       : A TRACE Message
+2021-04-08 12:43:26.008 DEBUG 73767 --- [http-nio-8080-exec-2] c.e.t.controller.LoggingController       : A DEBUG Message
+2021-04-08 12:43:26.008  INFO 73767 --- [http-nio-8080-exec-2] c.e.t.controller.LoggingController       : An INFO Message
+2021-04-08 12:43:26.008  WARN 73767 --- [http-nio-8080-exec-2] c.e.t.controller.LoggingController       : A WARN Message
+2021-04-08 12:43:26.008 ERROR 73767 --- [http-nio-8080-exec-2] c.e.t.controller.LoggingController       : An ERROR Message
+2021-04-08 12:43:26.175 TRACE 73767 --- [http-nio-8080-exec-3] c.e.t.controller.LoggingController       : A TRACE Message
+2021-04-08 12:43:26.175 DEBUG 73767 --- [http-nio-8080-exec-3] c.e.t.controller.LoggingController       : A DEBUG Message
+2021-04-08 12:43:26.175  INFO 73767 --- [http-nio-8080-exec-3] c.e.t.controller.LoggingController       : An INFO Message
+2021-04-08 12:43:26.175  WARN 73767 --- [http-nio-8080-exec-3] c.e.t.controller.LoggingController       : A WARN Message
+2021-04-08 12:43:26.175 ERROR 73767 --- [http-nio-8080-exec-3] c.e.t.controller.LoggingController       : An ERROR Message
+2021-04-08 12:50:23.214  INFO 73767 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-08 12:50:26.470  INFO 74146 --- [restartedMain] c.e.t.TestSpringLoggingApplication       : Starting TestSpringLoggingApplication using Java 16 on vladislav-GL65-9SCK with PID 74146 (/home/vladislav/IdeaProjects/TestSpringLogging/target/classes started by vladislav in /home/vladislav/IdeaProjects/TestSpringLogging)
+2021-04-08 12:50:26.471 DEBUG 74146 --- [restartedMain] c.e.t.TestSpringLoggingApplication       : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-04-08 12:50:26.471  INFO 74146 --- [restartedMain] c.e.t.TestSpringLoggingApplication       : No active profile set, falling back to default profiles: default
+2021-04-08 12:50:26.496  INFO 74146 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-08 12:50:26.497  INFO 74146 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-08 12:50:26.927  INFO 74146 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-08 12:50:26.932  INFO 74146 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-08 12:50:26.932  INFO 74146 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-08 12:50:26.954  INFO 74146 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-08 12:50:26.954  INFO 74146 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 457 ms
+2021-04-08 12:50:27.064  INFO 74146 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-08 12:50:27.131  INFO 74146 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-08 12:50:27.145  INFO 74146 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-08 12:50:27.152  INFO 74146 --- [restartedMain] c.e.t.TestSpringLoggingApplication       : Started TestSpringLoggingApplication in 0.908 seconds (JVM running for 1.223)
+2021-04-08 12:50:38.317  INFO 74146 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-08 12:50:38.317  INFO 74146 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-08 12:50:38.318  INFO 74146 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-04-08 12:50:38.327 TRACE 74146 --- [http-nio-8080-exec-1] c.e.t.controller.LoggingController       : A TRACE Message
+2021-04-08 12:50:38.327 DEBUG 74146 --- [http-nio-8080-exec-1] c.e.t.controller.LoggingController       : A DEBUG Message
+2021-04-08 12:50:38.327  INFO 74146 --- [http-nio-8080-exec-1] c.e.t.controller.LoggingController       : An INFO Message
+2021-04-08 12:50:38.327  WARN 74146 --- [http-nio-8080-exec-1] c.e.t.controller.LoggingController       : A WARN Message
+2021-04-08 12:50:38.327 ERROR 74146 --- [http-nio-8080-exec-1] c.e.t.controller.LoggingController       : An ERROR Message
+2021-04-08 12:50:38.429 TRACE 74146 --- [http-nio-8080-exec-2] c.e.t.controller.LoggingController       : A TRACE Message
+2021-04-08 12:50:38.429 DEBUG 74146 --- [http-nio-8080-exec-2] c.e.t.controller.LoggingController       : A DEBUG Message
+2021-04-08 12:50:38.429  INFO 74146 --- [http-nio-8080-exec-2] c.e.t.controller.LoggingController       : An INFO Message
+2021-04-08 12:50:38.429  WARN 74146 --- [http-nio-8080-exec-2] c.e.t.controller.LoggingController       : A WARN Message
+2021-04-08 12:50:38.429 ERROR 74146 --- [http-nio-8080-exec-2] c.e.t.controller.LoggingController       : An ERROR Message
+2021-04-08 12:50:38.607 TRACE 74146 --- [http-nio-8080-exec-3] c.e.t.controller.LoggingController       : A TRACE Message
+2021-04-08 12:50:38.607 DEBUG 74146 --- [http-nio-8080-exec-3] c.e.t.controller.LoggingController       : A DEBUG Message
+2021-04-08 12:50:38.607  INFO 74146 --- [http-nio-8080-exec-3] c.e.t.controller.LoggingController       : An INFO Message
+2021-04-08 12:50:38.607  WARN 74146 --- [http-nio-8080-exec-3] c.e.t.controller.LoggingController       : A WARN Message
+2021-04-08 12:50:38.607 ERROR 74146 --- [http-nio-8080-exec-3] c.e.t.controller.LoggingController       : An ERROR Message
+2021-04-08 13:00:21.972  INFO 74146 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-08 13:00:27.185  INFO 75123 --- [restartedMain] c.e.t.TestSpringLoggingApplication       : Starting TestSpringLoggingApplication using Java 16 on vladislav-GL65-9SCK with PID 75123 (/home/vladislav/IdeaProjects/TestSpringLogging/target/classes started by vladislav in /home/vladislav/IdeaProjects/TestSpringLogging)
+2021-04-08 13:00:27.186 DEBUG 75123 --- [restartedMain] c.e.t.TestSpringLoggingApplication       : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-04-08 13:00:27.187  INFO 75123 --- [restartedMain] c.e.t.TestSpringLoggingApplication       : No active profile set, falling back to default profiles: default
+2021-04-08 13:00:27.214  INFO 75123 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-08 13:00:27.215  INFO 75123 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-08 13:00:27.614  INFO 75123 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-08 13:00:27.618  INFO 75123 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-08 13:00:27.618  INFO 75123 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-08 13:00:27.640  INFO 75123 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-08 13:00:27.641  INFO 75123 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 426 ms
+2021-04-08 13:00:27.730  INFO 75123 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-08 13:00:27.796  INFO 75123 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-08 13:00:27.810  INFO 75123 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-08 13:00:27.816  INFO 75123 --- [restartedMain] c.e.t.TestSpringLoggingApplication       : Started TestSpringLoggingApplication in 0.832 seconds (JVM running for 1.139)
+2021-04-08 13:01:01.876  INFO 75123 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-08 13:01:01.876  INFO 75123 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-08 13:01:01.877  INFO 75123 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-08 13:01:01.885 TRACE 75123 --- [http-nio-8080-exec-1] c.e.t.controller.LoggingController       : A TRACE Message
+2021-04-08 13:01:01.885 DEBUG 75123 --- [http-nio-8080-exec-1] c.e.t.controller.LoggingController       : A DEBUG Message
+2021-04-08 13:01:01.886  INFO 75123 --- [http-nio-8080-exec-1] c.e.t.controller.LoggingController       : An INFO Message
+2021-04-08 13:01:01.886  WARN 75123 --- [http-nio-8080-exec-1] c.e.t.controller.LoggingController       : A WARN Message
+2021-04-08 13:01:01.886 ERROR 75123 --- [http-nio-8080-exec-1] c.e.t.controller.LoggingController       : An ERROR Message
+2021-04-08 13:01:02.000 TRACE 75123 --- [http-nio-8080-exec-2] c.e.t.controller.LoggingController       : A TRACE Message
+2021-04-08 13:01:02.000 DEBUG 75123 --- [http-nio-8080-exec-2] c.e.t.controller.LoggingController       : A DEBUG Message
+2021-04-08 13:01:02.000  INFO 75123 --- [http-nio-8080-exec-2] c.e.t.controller.LoggingController       : An INFO Message
+2021-04-08 13:01:02.000  WARN 75123 --- [http-nio-8080-exec-2] c.e.t.controller.LoggingController       : A WARN Message
+2021-04-08 13:01:02.000 ERROR 75123 --- [http-nio-8080-exec-2] c.e.t.controller.LoggingController       : An ERROR Message
+2021-04-08 13:01:02.556 TRACE 75123 --- [http-nio-8080-exec-3] c.e.t.controller.LoggingController       : A TRACE Message
+2021-04-08 13:01:02.557 DEBUG 75123 --- [http-nio-8080-exec-3] c.e.t.controller.LoggingController       : A DEBUG Message
+2021-04-08 13:01:02.557  INFO 75123 --- [http-nio-8080-exec-3] c.e.t.controller.LoggingController       : An INFO Message
+2021-04-08 13:01:02.558  WARN 75123 --- [http-nio-8080-exec-3] c.e.t.controller.LoggingController       : A WARN Message
+2021-04-08 13:01:02.558 ERROR 75123 --- [http-nio-8080-exec-3] c.e.t.controller.LoggingController       : An ERROR Message
